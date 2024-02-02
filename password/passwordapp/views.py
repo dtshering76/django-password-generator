@@ -25,3 +25,6 @@ def password(request):
 
 def about(request):
     return render(request,'passwordapp/about.html')
+
+def contact(request):
+    return render(request,'passwordapp/contact.html')
